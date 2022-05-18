@@ -7,3 +7,6 @@ var CurrentHR = moment().format("h");
 
 //Todays Date
 
+var date = moment().format("MMMM Do, YYYY");
+$("#currentDay").text(date);
+
